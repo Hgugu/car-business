@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>卖车管理</title>
+    <script src="js/autoFont.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+</head>
+<body>
+    <div id="selling_manage_header">
+        <a class="box" href="sellcar_publish.html"><span>发布一条</span></a>
+    </div>
+    <div id="selling_manage_sell">
+        <div class="selling_manage_sell_car clearFix">
+            <div class="check_circle"><img id="check" class="current" src="images/check.jpg" /></div>
+            <div class="slist">
+                <a href="">
+                    <img class="car" src="images/car1.jpg"/>
+                    <h3>15款奔驰ML350中东四驱<br/>3.0T</h3>
+                    <span class="price">75.5</span><span class="pricestyle">万元</span>
+                    <span class="watch">浏览  134</span>
+                </a>
+            </div>
+        </div>
+        <div class="selling_manage_sell_car clearFix">
+            <div class="check_circle"><img id="circle" src="images/circle.jpg" /></div>
+            <div class="slist">
+                <a href="">
+                    <img class="car" src="images/car2.jpg"/>
+                    <h3>15款奔驰ML400加规四驱<br/>3.0L</h3>
+                    <span class="price">75.5</span><span class="pricestyle">万元</span>
+                    <span class="watch">浏览  1343</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <form id="delete">
+        <input type="button" value="删除（1）" class="button">
+    </form>
+
+    <!--<script type="text/javascript">-->
+        <!--var checkNode=document.querySelector('#check');-->
+        <!--var circleNode=document.querySelector('#circle');-->
+
+        <!--checkNode.onclick=function(){-->
+            <!--if(checkNode.children.className="current"){-->
+                <!--checkNode.children.src="images/circle.jpg";-->
+                <!--checkNode.children.className="circle";-->
+            <!--}-->
+        <!--};-->
+    <!--</script>-->
+</body>
+</html>

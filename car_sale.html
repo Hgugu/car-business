@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>卖车</title>
+    <script src="js/autoFont.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+
+    <style>
+        body{overflow: hidden;/*iscroll 必加*/}
+        .container{ position: absolute; top: 0.8rem; bottom: 1rem; left: 0; width: 100%; background: #f7f7f7; overflow: hidden;}
+        /*重新加载*/
+        .reload{ position: absolute; top:-0.4rem; width: 100%; text-align: center; line-height: 0.4rem;}
+        /*更多加载*/
+        .append{ position: absolute; bottom:-0.4rem; width: 100%; text-align: center; line-height: 0.4rem;}
+        .current{ background: #f2f1ec;}
+    </style>
+</head>
+<body>
+    <div id="saleList" class="clearFix">
+        <a  href="javascript:;" class="current"><span>筛选</span></a>
+        <a  href="javascript:;"><span>品牌</span></a>
+        <a  href="javascript:;"><span>类型</span></a>
+    </div>
+    <section class="container">
+        <div id="carList">
+            <span class="reload">下拉刷新</span>
+            <div id="list">
+                <div class="clist">
+                    <a href="sale_details.html">
+                        <img class="car" src="images/car1.jpg"/>
+                        <h3>15款奔驰ML350中东四驱3.0T</h3>
+                        <span class="price">75.5</span><span class="pricestyle">万元</span>
+                        <span class="watch">浏览  134</span>
+                    </a>
+                </div>
+                <div class="clist">
+                    <a href="">
+                        <img class="car" src="images/car2.jpg"/>
+                        <h3>15款奔驰ML400加规四驱3.0L</h3>
+                        <span class="price">75.5</span><span class="pricestyle">万元</span>
+                        <span class="watch">浏览  1343</span>
+                    </a>
+                </div>
+                <div class="clist">
+                    <a href="">
+                        <img class="car" src="images/car2.jpg"/>
+                        <h3>15款奔驰ML400加规四驱3.0L</h3>
+                        <span class="price">75.5</span><span class="pricestyle">万元</span>
+                        <span class="watch">浏览  1343</span>
+                    </a>
+                </div>
+                <div class="clist">
+                    <a href="">
+                        <img class="car" src="images/car2.jpg"/>
+                        <h3>15款奔驰ML400加规四驱3.0L</h3>
+                        <span class="price">75.5</span><span class="pricestyle">万元</span>
+                        <span class="watch">浏览  1343</span>
+                    </a>
+                </div>
+                <div class="clist">
+                    <a href="">
+                        <img class="car" src="images/car2.jpg"/>
+                        <h3>15款奔驰ML400加规四驱3.0L</h3>
+                        <span class="price">75.5</span><span class="pricestyle">万元</span>
+                        <span class="watch">浏览  1343</span>
+                    </a>
+                </div>
+                <div class="clist">
+                    <a href="">
+                        <img class="car" src="images/car2.jpg"/>
+                        <h3>15款奔驰ML400加规四驱3.0L</h3>
+                        <span class="price">75.5</span><span class="pricestyle">万元</span>
+                        <span class="watch">浏览  1343</span>
+                    </a>
+                </div>
+                <div class="clist">
+                    <a href="">
+                        <img class="car" src="images/car2.jpg"/>
+                        <h3>15款奔驰ML400加规四驱3.0L</h3>
+                        <span class="price">75.5</span><span class="pricestyle">万元</span>
+                        <span class="watch">浏览  1343</span>
+                    </a>
+                </div>
+                <div class="clist">
+                    <a href="">
+                        <img class="car" src="images/car2.jpg"/>
+                        <h3>15款奔驰ML400加规四驱3.0L</h3>
+                        <span class="price">75.5</span><span class="pricestyle">万元</span>
+                        <span class="watch">浏览  1343</span>
+                    </a>
+                </div>
+            </div>
+            <span class="append" style="display:none;">更多加载</span>
+        </div>
+    </section>
+
+    <div id="home_notice" class="clearFix">
+        <a class="home" href="index.html"><img src="images/home.jpg" /></a>
+        <a class="notice" href=""><img src="images/notice.jpg" /></a>
+    </div>
+
+    <script data-main="js/app.js?v=1.2.1" src="js/require.min.js"></script>
+</body>
+</html>
